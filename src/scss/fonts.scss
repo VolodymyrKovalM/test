@@ -1,0 +1,58 @@
+/* Roboto */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto-light-webfont.eot');
+    src: url('fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff'),
+         url('fonts/roboto-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto-regular-webfont.eot');
+    src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff'),
+         url('fonts/roboto-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto-bold-webfont.eot');
+    src: url('fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('fonts/roboto-bold-webfont.woff') format('woff'),
+         url('fonts/roboto-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* UA brand */
+
+@font-face {
+    font-family: 'UA brand';
+    src: url('fonts/ua-brand-black.eot');
+    src: url('fonts/ua-brand-black.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ua-brand-black.woff2') format('woff2'),
+         url('fonts/ua-brand-black.woff') format('woff'),
+         url('fonts/ua-brand-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UA brand';
+    src: url('fonts/ua-brand-bold.eot');
+    src: url('fonts/ua-brand-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ua-brand-bold.woff2') format('woff2'),
+         url('fonts/ua-brand-bold.woff') format('woff'),
+         url('fonts/ua-brand-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

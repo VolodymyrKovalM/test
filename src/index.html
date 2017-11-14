@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>KitSoft test</title>
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+	<script src="js/screen.js"></script>
+	<header class="header">
+		<div class="header-top">
+			<h1 class="header-title">
+				События
+			</h1>
+			<a href="#" class="add-btn sprite-side">Добавить</a>
+		</div>
+		<form action="#" class="search-form" method="POST">
+			<input type="text" class="input-text" placeholder="Место, объект, название, тематика, активность">
+			<div class="date-container">
+				<input type="text" class="input-text input-date" placeholder="Дата" data-datepicker>
+			</div>		
+			<input type="text" class="input-text input-location" value="Ивано-Франковск">
+			<button type="submit" class="search-form-submit">Найти</button>
+		</form>
+		<div id="carousel" class="carousel-container">
+			<div class="carousel-inner">
+				<ul class="carousel-list">
+					<li class="anim-opacity active">
+						<span class="circle-red first-pos">
+							<strong>45</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-first">
+							<span class="circle-btn">Опера</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-md link-second">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Мария Чайковская</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>22</strong> фев
+							</span>
+						</a>
+						<span class="circle-red second-pos">
+							<strong>25</strong> фев
+						</span>
+						<span class="circle-red third-pos">
+							<strong>11</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-third">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Depeche Mode</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>12</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-fourth">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>21</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link link-fifth">
+							<span class="circle-btn">Конкурс</span>
+							<span class="circle-text">Евровидение 2017</span>
+							<span class="circle-red circ-top-left">
+								<strong>9-13</strong> марта
+							</span>
+						</a>
+						<span class="circle-red fourth-pos">
+							<strong>8</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-sixth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Оскар і Рожева Пані</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>23</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-seventh">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<button class="add-circle sprite-side">
+							Добавить
+						</button>
+						<a href="#" class="carousel-link carousel-link-md link-eighth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Черный квадрат Медовый месяц</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>25</strong> фев
+							</span>
+						</a>
+						<span class="circle-red fifth-pos">
+							<strong>31</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-ninth">
+							<span class="circle-btn">Спорт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>5</strong> фев
+							</span>
+						</a>
+					</li>
+					<li class="anim-opacity active">
+						<span class="circle-red first-pos">
+							<strong>45</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-first">
+							<span class="circle-btn">Опера</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-md link-second">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Мария Чайковская</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>22</strong> фев
+							</span>
+						</a>
+						<span class="circle-red second-pos">
+							<strong>25</strong> фев
+						</span>
+						<span class="circle-red third-pos">
+							<strong>11</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-third">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Depeche Mode</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>12</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-fourth">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>21</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link link-fifth">
+							<span class="circle-btn">Конкурс</span>
+							<span class="circle-text">Евровидение 2017</span>
+							<span class="circle-red circ-top-left">
+								<strong>9-13</strong> марта
+							</span>
+						</a>
+						<span class="circle-red fourth-pos">
+							<strong>8</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-sixth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Оскар і Рожева Пані</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>23</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-seventh">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<button class="add-circle sprite-side">
+							Добавить
+						</button>
+						<a href="#" class="carousel-link carousel-link-md link-eighth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Черный квадрат Медовый месяц</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>25</strong> фев
+							</span>
+						</a>
+						<span class="circle-red fifth-pos">
+							<strong>31</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-ninth">
+							<span class="circle-btn">Спорт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>5</strong> фев
+							</span>
+						</a>
+					</li>
+					<li class="anim-opacity active">
+						<span class="circle-red first-pos">
+							<strong>45</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-first">
+							<span class="circle-btn">Опера</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-md link-second">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Мария Чайковская</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>22</strong> фев
+							</span>
+						</a>
+						<span class="circle-red second-pos">
+							<strong>25</strong> фев
+						</span>
+						<span class="circle-red third-pos">
+							<strong>11</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-third">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Depeche Mode</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>12</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-fourth">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>21</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link link-fifth">
+							<span class="circle-btn">Конкурс</span>
+							<span class="circle-text">Евровидение 2017</span>
+							<span class="circle-red circ-top-left">
+								<strong>9-13</strong> марта
+							</span>
+						</a>
+						<span class="circle-red fourth-pos">
+							<strong>8</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-sixth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Оскар і Рожева Пані</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>23</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-seventh">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<button class="add-circle sprite-side">
+							Добавить
+						</button>
+						<a href="#" class="carousel-link carousel-link-md link-eighth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Черный квадрат Медовый месяц</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>25</strong> фев
+							</span>
+						</a>
+						<span class="circle-red fifth-pos">
+							<strong>31</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-ninth">
+							<span class="circle-btn">Спорт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>5</strong> фев
+							</span>
+						</a>
+					</li>
+					<li class="anim-opacity active">
+						<span class="circle-red first-pos">
+							<strong>45</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-first">
+							<span class="circle-btn">Опера</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-md link-second">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Мария Чайковская</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>22</strong> фев
+							</span>
+						</a>
+						<span class="circle-red second-pos">
+							<strong>25</strong> фев
+						</span>
+						<span class="circle-red third-pos">
+							<strong>11</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-third">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Depeche Mode</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>12</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-fourth">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>21</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link link-fifth">
+							<span class="circle-btn">Конкурс</span>
+							<span class="circle-text">Евровидение 2017</span>
+							<span class="circle-red circ-top-left">
+								<strong>9-13</strong> марта
+							</span>
+						</a>
+						<span class="circle-red fourth-pos">
+							<strong>8</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-sixth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Оскар і Рожева Пані</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>23</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-seventh">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<button class="add-circle sprite-side">
+							Добавить
+						</button>
+						<a href="#" class="carousel-link carousel-link-md link-eighth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Черный квадрат Медовый месяц</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>25</strong> фев
+							</span>
+						</a>
+						<span class="circle-red fifth-pos">
+							<strong>31</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-ninth">
+							<span class="circle-btn">Спорт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>5</strong> фев
+							</span>
+						</a>
+					</li>
+					<li class="anim-opacity active">
+						<span class="circle-red first-pos">
+							<strong>45</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-first">
+							<span class="circle-btn">Опера</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-md link-second">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Мария Чайковская</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>22</strong> фев
+							</span>
+						</a>
+						<span class="circle-red second-pos">
+							<strong>25</strong> фев
+						</span>
+						<span class="circle-red third-pos">
+							<strong>11</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-third">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Depeche Mode</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>12</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-fourth">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>21</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link link-fifth">
+							<span class="circle-btn">Конкурс</span>
+							<span class="circle-text">Евровидение 2017</span>
+							<span class="circle-red circ-top-left">
+								<strong>9-13</strong> марта
+							</span>
+						</a>
+						<span class="circle-red fourth-pos">
+							<strong>8</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-sixth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Оскар і Рожева Пані</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>23</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-seventh">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<button class="add-circle sprite-side">
+							Добавить
+						</button>
+						<a href="#" class="carousel-link carousel-link-md link-eighth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Черный квадрат Медовый месяц</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>25</strong> фев
+							</span>
+						</a>
+						<span class="circle-red fifth-pos">
+							<strong>31</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-ninth">
+							<span class="circle-btn">Спорт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>5</strong> фев
+							</span>
+						</a>
+					</li>
+					<li class="anim-opacity active">
+						<span class="circle-red first-pos">
+							<strong>45</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-first">
+							<span class="circle-btn">Опера</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-md link-second">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Мария Чайковская</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>22</strong> фев
+							</span>
+						</a>
+						<span class="circle-red second-pos">
+							<strong>25</strong> фев
+						</span>
+						<span class="circle-red third-pos">
+							<strong>11</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-third">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-text">Depeche Mode</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>12</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-fourth">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>21</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link link-fifth">
+							<span class="circle-btn">Конкурс</span>
+							<span class="circle-text">Евровидение 2017</span>
+							<span class="circle-red circ-top-left">
+								<strong>9-13</strong> марта
+							</span>
+						</a>
+						<span class="circle-red fourth-pos">
+							<strong>8</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-md link-sixth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Оскар і Рожева Пані</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>23</strong> фев
+							</span>
+						</a>
+						<a href="#" class="carousel-link carousel-link-sm link-seventh">
+							<span class="circle-btn">Концерт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>15</strong> фев
+							</span>
+						</a>
+						<button class="add-circle sprite-side">
+							Добавить
+						</button>
+						<a href="#" class="carousel-link carousel-link-md link-eighth">
+							<span class="circle-btn">Театр</span>
+							<span class="circle-text">Черный квадрат Медовый месяц</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>25</strong> фев
+							</span>
+						</a>
+						<span class="circle-red fifth-pos">
+							<strong>31</strong> фев
+						</span>
+						<a href="#" class="carousel-link carousel-link-sm link-ninth">
+							<span class="circle-btn">Спорт</span>
+							<span class="circle-red circle-red-sm circ-top-left">
+								<strong>5</strong> фев
+							</span>
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="carousel-control-prev sprite-side"></a>
+				<a href="#" class="carousel-control-next sprite-side"></a>
+			</div>		
+			<nav class="carouser-pagination">
+			</nav>
+		</div>
+	</header>
+
+	<script src="js/main.min.js"></script>
+</body>
+</html>
